@@ -1,0 +1,238 @@
+@font-face {
+    font-family: Quicksand-light;
+    src: url(../fonts/Quicksand-Light.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-principal: #1a1a2e;
+    --cor-destaque: #e94560;
+    --cor-fundo: #f0f0f5;
+    --cor-escuro: #16213e;
+    --cor-texto: #2d2d2d;
+    --cor-claro: #f0f0f5;
+    --cor-cinza: #6b7280;
+    --spacing-sm: 10px;
+    --spacing-md: 20px;
+    --spacing-lg: 30px;
+    --altura: 100dvh;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: Quicksand-light;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.btn-principal {
+    background-color: var(--cor-principal);
+    color: var(--cor-claro);
+    padding: var(--spacing-sm) var(--spacing-md);
+    font-weight: 700;
+    transition: background-color 0.3s;
+}
+
+.btn-principal:hover {
+    background-color: var(--cor-destaque);
+    color: var(--cor-claro);
+}
+
+.btn-secundario {
+    color: var(--cor-texto);
+    padding: var(--spacing-sm) var(--spacing-md);
+    border: 2px solid var(--cor-texto);
+    font-weight: 700;
+    transition: border-color 0.3s;
+}
+
+.btn-secundario:hover {
+    border-color: var(--cor-destaque);
+    color: var(--cor-destaque);
+}
+
+.secao-hero {
+    height: var(--altura);
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-lg);
+    padding: var(--spacing-lg);
+    background-color: var(--cor-fundo);
+}
+
+.hero-texto {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+}
+
+.hero-texto span {
+    color: var(--cor-destaque);
+    font-weight: 700;
+}
+
+.hero-texto h1 {
+    font-size: 47px;
+    color: var(--cor-principal);
+}
+
+.hero-texto p {
+    color: var(--cor-cinza);
+    line-height: 1.5;
+}
+
+.hero-botoes {
+    display: flex;
+    gap: var(--spacing-sm);
+}
+
+.hero-foto {
+    flex: 1;
+    height: 400px;
+    background-color: #cccccc;
+}
+
+.secao-areas {
+    height: var(--altura);
+    background-color: var(--cor-escuro);
+    padding: var(--spacing-lg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--spacing-lg);
+}
+
+.areas-titulo {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+}
+
+.areas-titulo span {
+    color: var(--cor-destaque);
+    font-weight: 700;
+}
+
+.areas-titulo h2 {
+    font-size: 32px;
+    color: var(--cor-claro);
+}
+
+.lista-cards {
+    display: flex;
+    gap: var(--spacing-md);
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-item {
+    flex: 1;
+    background-color: #1e293b;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+    padding: var(--spacing-md);
+    transition: transform 0.3s;
+}
+
+.card-item:hover {
+    scale: 1.05;    
+}
+
+.card-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: fill;
+}
+
+.card-item h3 {
+    color: var(--cor-claro);
+    font-size: 16px;
+}
+
+.card-item p {
+    color: var(--cor-cinza);
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.secao-sobre {
+    height: var(--altura);
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-lg);
+    padding: var(--spacing-lg);
+    background-color: var(--cor-fundo);
+}
+
+.sobre-texto {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+}
+
+.sobre-texto span {
+    color: var(--cor-cinza);
+    font-weight: 700;
+}
+
+.sobre-texto h2 {
+    font-size: 38px;
+    color: var(--cor-principal);
+}
+
+.sobre-texto p {
+    color: var(--cor-cinza);
+    line-height: 1.5;
+}
+
+.sobre-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sobre-lista li {
+    color: var(--cor-texto);
+    padding-left: var(--spacing-sm);
+    border-left: 3px solid var(--cor-destaque);
+}
+
+.sobre-foto {
+    flex: 1;
+    height: 380px;
+    background-color: #cccccc;
+}
+
+.rodape {
+    height: 100px;
+    background-color: var(--cor-principal);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape p {
+    color: var(--cor-claro);
+    font-weight: 600;
+}
