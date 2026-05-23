@@ -1,21 +1,18 @@
-# 🌐 Projeto Front-End
+# 🌐 Landing Page - Inteligência Artificial
 
-Projeto desenvolvido para uma CP da faculdade utilizando:
+Projeto desenvolvido para uma CP da faculdade utilizando HTML e CSS.
 
-- HTML
-- CSS
-- JavaScript
+## 🚀 Tecnologias
+- HTML5
+- CSS3
+- Flexbox
+
+## 📚 Funcionalidades
+- Navegação por seções
+- Layout responsivo
+- Cards informativos
+- Efeitos hover
+- Estrutura moderna
 
 ## 🎯 Objetivo
-Praticar estruturação de páginas, estilização e lógica com JavaScript.
-
-## 🚀 Funcionalidades
-- Layout responsivo
-- Interações com JavaScript
-- Navegação entre páginas
-
-## 📚 Aprendizados
-- Organização de código
-- Estrutura HTML
-- Estilização com CSS
-- Manipulação básica do DOM
+Praticar desenvolvimento front-end e organização de layouts.
